@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+
+ <html lang="en">
+
+ <head>
+
+   <meta charset="UTF-8">
+      <title>Bent Creek Ceramics - Newsletter</title>
+    <meta name="description" content="DESCRIPTION">
+      <link rel="stylesheet" href="/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Lora|Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i' rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="76x76" href="../apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+      <link rel="manifest" href="../manifest.json">
+      <meta name="theme-color" content="#ffffff">
+
+ </head>
+
+ <body>
+
+<!--- NAV --->
+
+<nav>
+
+ <div class="logo"></div>
+
+ <ul class="nav-row">
+
+    <li class="nav-item">
+      <a href="/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/about/index.html" class="about-active">About</a>
+    </li>
+    <li class="nav-item">
+      <a href="/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/newsletter/index.html" class="active">Newsletter</a>
+    </li>
+
+  </ul>
+
+</nav>
+
+<!--- MAIN --->
+
+  <main class="newsletter-main">
+
+    <section class="sign-up-form">
+
+      <div class="newsletter-titles">
+
+        <h5>Sign Up For Our Weekly Newsletter</h5>
+        <h6>Stay up to date with events, activities, news and specials.</h6>
+
+      </div>
+
+      <form class="newsletter-form" action="index.html" method="post">
+        <fieldset class="submit-name">
+          <label for="name">Name</label>
+          <input type="text" id="nameInput" name="name" required>
+        </fieldset>
+        <fieldset class="submit-email">
+          <label for="email">Email</label>
+          <input type="email" id="emailInput" name="email" required>
+        </fieldset>
+        <button type="button" class="submit-button" id="signupButton">
+          <input type="submit" value="Submit" class="submit-color">
+        </button>
+
+      </form>
+
+
+
+    </section>
+
+  </main>
+
+<!---   JS Script --->
+
+  <script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function(e) {
+      var nameVal = nameInput.value;
+      var emailVal = emailInput.value;
+      if (nameVal && emailVal) {
+        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+        nameInput.value = "";
+        emailInput.value = "";
+      } else {
+        alert('We would love for you to sign up, please provide both your name and email address.');
+      }
+    });
+  </script>
+
+ </body>
+
+ </html>

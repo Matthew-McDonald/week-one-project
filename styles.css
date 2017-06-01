@@ -1,0 +1,412 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*     NAV    (For All Pages) */
+
+nav {
+  height: 70px;
+  background-color: #FFFFFF;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  padding-right: 30px;
+  font-size: 14pt;
+}
+.nav-item {
+  text-align: center;
+  width: 10%;
+  padding-top: 25px;
+}
+
+a:link {
+  color: #2B2F26;
+}
+a:visited {
+  color: #2B2F26;
+}
+a:hover  {
+  color: #CD5D67;
+}
+a:active {
+  color: #968772;
+}
+
+a.active {
+  color: #968772;
+}
+
+.logo {
+  background-image: url("images/bent-creek-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+/*     MAIN HOME PAGE   */
+
+.main-home {
+  background-color: #F2F1E8;
+  color: #131511;
+  height: 910px;
+}
+
+.main-heading {
+  font-size: 50pt;
+  font-family: "Merriweather";
+  font-weight: 400;
+  padding-top: 60px;
+  text-align: center;
+}
+.sub-heading {
+  font-size: 32pt;
+  font-family: "Merriweather";
+  font-weight: 300;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+
+/*     LIST STYLES  HOME PAGE  */
+
+
+.main-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.highlight {
+  background-color: #2B2F26;
+  padding: 20px;
+  font-size: 14pt;
+  color: #F2F1E8;
+}
+
+.main-item-one {
+  background-image: url("images/product-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 59%;
+  margin: 5px;
+  padding-top: 310px;
+}
+
+.main-item-two {
+  background-image: url("images/product-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 19%;
+  margin: 5px;
+  padding-top: 310px;
+}
+
+.main-item-three {
+  background-image: url("images/product-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 19%;
+  margin: 5px;
+  padding-top: 310px;
+}
+
+.main-item-four {
+  background-image: url("images/product-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 19%;
+  margin: 5px;
+  padding-top: 180px;
+}
+
+.main-item-five {
+  background-image: url("images/product-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 19%;
+  margin: 5px;
+  padding-top: 180px;
+}
+
+.main-item-six {
+  background-image: url("images/product-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 39%;
+  margin: 5px;
+  padding-top: 180px;
+}
+
+.main-item-seven {
+  background-image: url("images/product-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 19%;
+  margin: 5px;
+  padding-top: 180px;
+}
+
+
+/*       MAIN ABOUT PAGE      */
+
+.about-heading {
+  font-size: 50pt;
+  font-family: "Merriweather";
+  font-weight: 400;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.about-main {
+  font-family: "Merriweather";
+  font-size: 14pt;
+  background-color: #F2F1E8;
+  color: #131511;
+  justify-content: center;
+  align-content: center;
+  line-height: 2;
+}
+
+.about-main-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-main-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-item {
+  width: 58%;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.open-paragraph {
+  width: 58%;
+  padding-top: 30px;
+}
+
+.about-bird {
+  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/birdhouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 150px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+
+a.bird-link {
+  color: #968772;
+}
+a.bird-link:link {
+  color: #968772;
+}
+a.bird-link:visited {
+  color: #968772;
+}
+a.bird-link:hover {
+  color: #967343;
+}
+
+.quote {
+  border-left: 2px solid #967343;
+  font-style: italic;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+.room-to-grow {
+  justify-content: center;
+  width: 100%;
+}
+.room-to-grow-background {
+  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.pottery {
+  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 120px;
+  width: 175px;
+}
+
+.pottery-left {
+  width: 75%;
+  float: left;
+}
+
+.pottery-right {
+  width: 25%;
+  float:right;
+  padding-left: 10px;
+}
+.pottery-p {
+  width: 180px;
+  font-size: 10pt;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 50pt;
+  font-weight: 300;
+  font-family: "Merriweather"
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: 400;
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 22pt;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table-background {
+  background-color: #F2EADC;
+}
+
+/*     MAIN NEWSLETTER PAGE       */
+
+.newsletter-main {
+  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form {
+  text-align: center;
+  width: 615px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+h5 {
+  font-size: 22pt;
+  font-family: "Merriweather";
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+h6 {
+  font-size: 14pt;
+  font-family: "Merriweather";
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.submit-button {
+  background-color: #968772;
+}
+
+.submit-color {
+  color: #F2F1E8;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+.submit-name {
+  border-bottom: 1px #968772 solid;
+  border-width: 2px;
+  text-align: left;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: #968772;
+  font-size: 14pt;
+  font-family: "Merriweather";
+  font-weight: 300;
+}
+.submit-email {
+  border-bottom:1px #968772 solid;
+  border-width: 2px;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  color: #968772;
+  font-size: 14pt;
+  font-family: "Merriweather";
+  font-weight: 300;
+}
+
+
+/*      FOOTER    For Home and About Pages   */
+
+footer {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  font-family:'Merriweather';
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 30px;
+}
