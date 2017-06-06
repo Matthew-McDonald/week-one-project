@@ -216,7 +216,7 @@ a.active {
 }
 
 .about-bird {
-  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/birdhouse.jpg");
+  background-image: url("images/birdhouse.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 120px;
@@ -253,7 +253,7 @@ a.bird-link:hover {
   width: 100%;
 }
 .room-to-grow-background {
-  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-3.jpg");
+  background-image: url("images/background-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -265,7 +265,7 @@ a.bird-link:hover {
 }
 
 .pottery {
-  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-1.jpg");
+  background-image: url("images/background-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 120px;
@@ -324,7 +324,7 @@ h4 {
 /*     MAIN NEWSLETTER PAGE       */
 
 .newsletter-main {
-  background-image: url("/Users/MattMcDonald/desktop/tiy-durham/Week 1/week-one-project/images/background-2.jpg");
+  background-image: url("images/background-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
